@@ -7,7 +7,7 @@ a { text-decoration: none; }
 header .right a:hover { color: gray; }
 input { color:blue;}
 
-nav { background-color: aqua;}
+nav { background-color: red;}
 nav ul {list-style: none; font-family: Verdana, Geneva, sans-serif; font-size: 14px;
         font-weight: bold; color: #ff0099}
 nav a { text-decoration: none; color:#000000; border-style: hidden hidden solid hidden;
