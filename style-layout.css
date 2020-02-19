@@ -24,6 +24,3 @@ article { margin: 5px 0 10px 0; }
 #signup fieldset input { vertical-align: middle;}
 #order { margin: 30px; text-align: center;}
 #order table { width:60%; margin: auto; }
-.booklist { margin: 10px; padding: 5px; }
-.booklist .head { margin: 15px 0 0 10px; }
-.booklist ul li { margin: 6px; float: left; list-style: none;}
