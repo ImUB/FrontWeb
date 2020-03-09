@@ -8,5 +8,6 @@ header .right a:hover { color: gray; }
 input { color:blue;}
 nav { background-color: blue; color: black; font-weight: 900; font-size: 15px;}
 nav a:visited { color: black;}
+nav ul li:hover { background-color: red;}
 ul { list-style: none;}
 .booklist ul li { font-weight: 900; font-size: 12px;}

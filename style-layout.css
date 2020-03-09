@@ -9,7 +9,7 @@ header { vertical-align: middle; }
 hr { clear: both;}
 
 nav { margin: 0 0 20px 0; float: left;}
-nav ul li { float: left; margin: 0 5px; list-style: none;}
+nav ul li { float: left; margin: 0 5px; list-style: none; text-align: center; line-height: 35px;}
 nav a { display: block; padding: 5px;}
 
 footer #copyright { margin: 20px 0 0 10px; float: left;}
