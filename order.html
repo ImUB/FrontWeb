@@ -18,26 +18,26 @@
         </tr>
         <tr>
           <td> 멀티미디어 배움터2.0 </td> <td>25,000원</td>
-          <td><input id="num" type="text" size="2" value="0"/> </td>
-          <td><input type="text" size="6" value="0" disabled />원</td>
+          <td><input id="num1" type="text" size="2" value="0"/> </td>
+          <td><input id="price1" type="text" size="6" value="0" disabled />원</td>
         </tr>
         <tr>
           <td> (알기 쉬운) 알고리즘</td> <td> 24,000원</td>
-          <td><input id="num" type="text" size="2" value="0"/> </td>
-          <td><input type="text" size="6" value="0" disabled/>원</td>
+          <td><input id="num2" type="text" size="2" value="0"/> </td>
+          <td><input id="price2" type="text" size="6" value="0" disabled/>원</td>
         </tr>
         <tr>
           <td> 비즈니스 정보 시스템</td> <td> 28,000원</td>
-          <td><input id="num" type="text" size="2" value="0"/> </td>
-          <td><input type="text" size="6" value="0" disabled/>원</td>
+          <td><input id="num3" type="text" size="2" value="0"/> </td>
+          <td><input id="price3" type="text" size="6" value="0" disabled/>원</td>
         </tr>
         <tr>
           <td> 합계 </td> <td> &nbsp; </td>
-          <td><input type="text" size="2" value="0" disabled/> </td>
-          <td><input type="text" size="6" value="0" disabled/>원</td>
+          <td><input id="num4" type="text" size="2" value="0" disabled/> </td>
+          <td><input id="price4" type="text" size="6" value="0" disabled/>원</td>
         </tr>
       </table> <br>
-      <input type="button" value="합계 계산">
+      <input type="button" onclick="calc()" value="합계 계산">
       <input type="reset" onclick="numreset()" value="초기화">
       <input type="submit" value="주문하기">
     </form>
