@@ -6,9 +6,9 @@
     <script src="myscript.js"></script>
   </head>
   <body id="order">
-    <div class="head">서적 주문 양식</div>
+    <h1 class="head">서적 주문 양식</h1>
     <form action="">
-      <p> 주문서 </p>
+      <h2 style="margin-top: 50px;"> 주문서 </h2>
       <table>
         <tr>
           <th>책 제목</th>
@@ -17,17 +17,17 @@
           <th>합계</th>
         </tr>
         <tr>
-          <td> 멀티미디어 배움터2.0 </td> <td>25,000원</td>
+          <td id="title1"> 멀티미디어 배움터2.0 </td> <td>25,000원</td>
           <td><input id="num1" type="text" size="2" value="0"/> </td>
           <td><input id="price1" type="text" size="6" value="0" disabled />원</td>
         </tr>
         <tr>
-          <td> (알기 쉬운) 알고리즘</td> <td> 24,000원</td>
+          <td id="title2"> (알기 쉬운) 알고리즘</td> <td> 24,000원</td>
           <td><input id="num2" type="text" size="2" value="0"/> </td>
           <td><input id="price2" type="text" size="6" value="0" disabled/>원</td>
         </tr>
         <tr>
-          <td> 비즈니스 정보 시스템</td> <td> 28,000원</td>
+          <td id="title3"> 비즈니스 정보 시스템</td> <td> 28,000원</td>
           <td><input id="num3" type="text" size="2" value="0"/> </td>
           <td><input id="price3" type="text" size="6" value="0" disabled/>원</td>
         </tr>
@@ -38,8 +38,8 @@
         </tr>
       </table> <br>
       <input type="button" onclick="calc()" value="합계 계산">
-      <input type="reset" onclick="numreset()" value="초기화">
-      <input type="submit" value="주문하기">
+      <input type="reset" value="초기화">
+      <input type="button" onclick="order()" value="주문하기">
     </form>
   </body>
 </html>
