@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style-presentation.css">
   <link rel="stylesheet" type="text/css" href="style-layout.css">
   <link rel="stylesheet" type="text/css" href="style-size.css">
+  <script src="myscript.js"></script>
 </head>
 
 <body>
@@ -30,11 +31,11 @@
     <hr />
 
     <article class="left">
-      <iframe name="display_area" src="images/books.jpg" width="600px" height="500px"></iframe>
+      <iframe name="display_area" id="display_area" src="images/books.jpg" width="600px" height="500px"></iframe>
     </article>
 
     <aside class="right">
-      <button id="all" style="width:85px" disabled>전체</button><br>
+      <button onclick="allbtn()" style="width:85px">전체</button><br>
       <button id="best" style="width:85px" disabled>베스트셀러</button><br>
       <button id="recommend" style="width:85px" disabled>추천도서</button><br>
       <button id="memo" style="width:85px" disabled>메모하기</button><br>

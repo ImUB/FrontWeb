@@ -3,6 +3,7 @@ body { margin:0; padding:0; line-height: 1.2em; font-size: 0.75em; line-height: 
 header { vertical-align: middle; }
 .left { float: left;}
 .right { float: right;}
+.right button { margin-bottom: 3px;}
 
 #logo { float: left; vertical-align: middle; margin: 30px 0 0 20px;}
 .clear { clear: both; }
