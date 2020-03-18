@@ -1,4 +1,4 @@
-body { margin:0; padding:0; line-height: 1.2em; font-size: 0.75em; line-height: 1.2em; }
+body { margin:90px; padding:0; line-height: 1.2em; font-size: 0.75em; line-height: 1.2em; }
 .wrap { margin: 0; margin-right: auto; margin-left: auto;}
 header { vertical-align: middle; }
 .left { float: left;}
@@ -26,8 +26,8 @@ article { margin: 5px 0 10px 0; }
 #order { margin: 30px; text-align: center;}
 #order table { width:60%; margin: auto; }
 
-.booklist ul { margin: 0; padding: 0; margin-left: 104.6px}
-.booklist li { margin : 0 0 0 0;
+.booklist ul { padding: 0; margin: 0; display: inline;}
+.booklist li { margin : 0;
                padding:0;
                border: 0;
                float: left;}
