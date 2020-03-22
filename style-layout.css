@@ -1,4 +1,6 @@
-body { margin:90px; padding:0; line-height: 1.2em; font-size: 0.75em; line-height: 1.2em; }
+
+#main { margin : 90px;}
+.wrap { margin:90px; padding:0; line-height: 1.2em; font-size: 0.75em; line-height: 1.2em; }
 .wrap { margin: 0; margin-right: auto; margin-left: auto;}
 header { vertical-align: middle; }
 .left { float: left;}
