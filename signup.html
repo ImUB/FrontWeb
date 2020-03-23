@@ -9,29 +9,34 @@
 </head>
 
 <body id="signup">
-  <form action="">
     <fieldset>
       <legend>회원가입</legend>
-      <span>사용자 아이디</span>
-      <input type="text" id="username2">
+      <span>사용자 아이디</span><input type="text" id="username2">
       <input type="button" value="중복체크" id="dup_check" disabled><br>
       <span>비밀번호</span> <input type="password" id="pass1"><br>
-      <span>이름</span> <input type="text"><br>
       <span>비밀번호 확인</span> <input type="password" id="pass2"><br>
-      <span>전화번호</span> <input type="tel"><br>
-      <span>이메일</span> <input type="email"><br>
-      <span>생일</span> <input type="date"><br>
+      <span>이름</span> <input id="name" type="text"><br>
+      <div>성별 <form>남<input type="radio" name="sex"/>여<input type="radio" name="sex"><br></form></div>
+      <span>전화번호</span> <input id="tel" type="tel"><br>
+      <span>이메일</span> <input id="mail" type="email"><br>
+      <span>생일</span> <input id="birth" type="date"><br>
       <span>연령대</span>
-      <select>
-        <option value="">10대 이하</option>
-        <option value="">20대</option>
-        <option value="">30대</option>ㅁ
-        <option value="">40대</option>
-        <option value="">50대</option>
+      <select id="age">
+        <option>10대 이하</option>
+        <option>20대</option>
+        <option>30대</option>
+        <option>40대</option>
+        <option>50대</option>
       </select><br>
       <span>관심분야</span>
+      <select id="hot">
+        <option>경제/경영</option>
+        <option>기술/공학</option>
+        <option>시/에세이</option>
+        <option>인문학</option>
+        <option>컴퓨터/IT</option>
+      </select>
     </fieldset>
-  </form>
 </body>
 
 </html>

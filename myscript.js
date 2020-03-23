@@ -61,14 +61,14 @@ function n_window(url)
 {
   if (url == 'login.html')
   {
-    var popupX = (window.screen.width / 2) - (419 / 2);
-    var popupY = (window.screen.height / 2) - (300 / 2);
+    var popupX = (window.innerWidth / 2) - (419 / 2);
+    var popupY = (window.innerHeight / 2) - (135 / 2);
     window.open(url, 'login', 'left='+ popupX +', top=' + popupY +', width=419, height=135, status=no, menubar=no, toolbar=no, resizable=no');
   }
   else if (url == 'signup.html')
   {
-    var popupX = (window.screen.width / 2) - (463 / 2);
-    var popupY = (window.screen.height / 2) - (286 / 2);
+    var popupX = (window.innerWidth / 2) - (463 / 2);
+    var popupY = (window.innerHeight / 2) - (286 / 2);
     window.open(url, 'signup', 'left=' + popupX + ',top=' + popupY + ',width=463, height=286, status=no, menubar=no, toolbar=no, resizable=no');
   }
 }
