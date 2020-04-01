@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style-presentation.css">
   <link rel="stylesheet" type="text/css" href="style-layout.css">
   <link rel="stylesheet" type="text/css" href="style-size.css">
+  <script src="mydb.js"></script>
 </head>
 
 <body id="signup">
@@ -16,7 +17,7 @@
       <span>비밀번호</span> <input type="password" id="pass1"><br>
       <span>비밀번호 확인</span> <input type="password" id="pass2"><br>
       <span>이름</span> <input id="name" type="text"><br>
-      <div>성별 <form>남<input type="radio" name="sex"/>여<input type="radio" name="sex"><br></form></div>
+      <span>성별</span>남<input type="radio" name="sex" value="남"/>여<input type="radio" name="sex" value="여"/><br>
       <span>전화번호</span> <input id="tel" type="tel"><br>
       <span>이메일</span> <input id="mail" type="email"><br>
       <span>생일</span> <input id="birth" type="date"><br>
@@ -36,6 +37,8 @@
         <option>인문학</option>
         <option>컴퓨터/IT</option>
       </select>
+      <br>
+      <input type="button" onclick="insertData()" value="완료">
     </fieldset>
 </body>
 
