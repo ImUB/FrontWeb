@@ -1,12 +1,3 @@
-var id = document.getElementById('username2');
-var pass = document.getElementById('pass1');
-var name = document.getElementById('name');
-var sex = document.getElementsByName('sex');
-var tel = document.getElementById('tel');
-var mail = document.getElementById('mail');
-var birth = document.getElementById('birth');
-var age = document.getElementById('age');
-var hot = document.getElementById('hot');
 var db
 
 if (!window.openDatabase)
@@ -22,10 +13,23 @@ else
 };
 
 function saveCustom() {
+  var id = document.getElementById('username2');
+  var pass = document.getElementById('pass1');
+  var name = document.getElementById('name');
+  var sex = document.getElementsByName('sex');
+  var tel = document.getElementById('tel');
+  var mail = document.getElementById('mail');
+  var birth = document.getElementById('birth');
+  var age = document.getElementById('age');
+  var hot = document.getElementById('hot');
+
   db.transaction(function(tx) {
-    tx.executeSql('')
+    tx.executeSql('INSERT INTO mydb VALUES(?,?,?,?,?,?,?,?,?)',
+    [id.value,pass.value,name.value,sex.value,tel.value,mail.value,birth.value,age.value,hot.value]);
   });
 }
+
+function
 
 // function insertData()
 // {
