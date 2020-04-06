@@ -67,8 +67,8 @@ function n_window(url)
   }
   else if (url == 'signup.html')
   {
-    var popupX = (window.innerWidth / 2) - (463 / 2);
-    var popupY = (window.innerHeight / 2) - (286 / 2);
-    window.open(url, 'signup', 'left=' + popupX + ',top=' + popupY + ',width=463, height=286, status=no, menubar=no, toolbar=no, resizable=no');
+    var popupX = (window.innerWidth / 2) - (497 / 2);
+    var popupY = (window.innerHeight / 2) - (336 / 2);
+    window.open(url, 'signup', 'left=' + popupX + ',top=' + popupY + ',width=497, height=336, status=no, menubar=no, toolbar=no, resizable=no');
   }
 }

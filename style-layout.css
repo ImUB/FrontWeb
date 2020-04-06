@@ -23,8 +23,9 @@ article { margin: 5px 0 10px 0; }
 #login { margin: 30px; }
 #login fieldset span { display: inline-block;}
 #signup { margin: 30px;}
-#signup fieldset span { display: inline-block; vertical-align: middle;}
+#signup fieldset span { display: inline-block; vertical-align: middle; width: 110px;}
 #signup fieldset input { vertical-align: middle;}
+#signup fieldset input:first-child { margin-left:10px;}
 #order { margin: 30px; text-align: center;}
 #order table { width:60%; margin: auto; }
 

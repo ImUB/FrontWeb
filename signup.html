@@ -10,17 +10,26 @@
 </head>
 
 <body id="signup">
-    <fieldset>
-      <legend>회원가입</legend>
-      <span>사용자 아이디</span><input type="text" id="username2">
+    <fieldset style="text-align:left;">
+      <legend align="center">회원가입</legend>
+      <span>사용자 아이디</span>
+      <input type="text" id="username2">
       <input type="button" value="중복체크" id="dup_check" disabled><br>
-      <span>비밀번호</span> <input type="password" id="pass1"><br>
-      <span>비밀번호 확인</span> <input type="password" id="pass2"><br>
-      <span>이름</span> <input id="name" type="text"><br>
-      <span>성별</span>남<input type="radio" name="sex" value="남"/>여<input type="radio" name="sex" value="여"/><br>
-      <span>전화번호</span> <input id="tel" type="tel"><br>
-      <span>이메일</span> <input id="mail" type="email"><br>
-      <span>생일</span> <input id="birth" type="date"><br>
+      <span>비밀번호</span>
+      <input type="password" id="pass1"><br>
+      <span>비밀번호 확인</span>
+      <input type="password" id="pass2"><br>
+      <span>이름</span>
+      <input id="name" type="text"><br>
+      <span>성별</span>
+      남<input type="radio" name="sex" value="남"/>
+      여<input type="radio" name="sex" value="여"/><br>
+      <span>전화번호</span>
+      <input id="tel" type="tel"><br>
+      <span>이메일</span>
+      <input id="mail" type="email"><br>
+      <span>생일</span>
+      <input id="birth" type="date"><br>
       <span>연령대</span>
       <select id="age">
         <option>10대 이하</option>
@@ -37,8 +46,11 @@
         <option>인문학</option>
         <option>컴퓨터/IT</option>
       </select>
-      <br>
-      <input type="button" onclick="saveCustom()" style="float: center;" value="완료">
+      </span><br>
+      <div>
+        <input type="button" onclick="saveCustom()" value="완료">
+        <input type="button" onclick="window.close()" value="취소">
+      </div>
     </fieldset>
 </body>
 

@@ -28,18 +28,3 @@ function saveCustom() {
     [id.value,pass.value,name.value,sex.value,tel.value,mail.value,birth.value,age.value,hot.value]);
   });
 }
-
-function
-
-// function insertData()
-// {
-
-//
-//   db.transaction(function(tx)
-//   {
-//     tx.executeSql("insert into custom values(?,?,?,?,?,?,?,?,?)",
-//     [id.value,pass.value,name.value,sex.value,tel.value,mail.value,birth.value,age.value,hot.value]);
-//   });
-//
-//   alert('데이터 추가 완료');
-// }
