@@ -7,7 +7,8 @@ nav a { height: 20px;}
 footer { height: 70px; }
 
 #login fieldset span { width: 80px;}
-#login fieldset input { width: 150px;}
+#login fieldset div:first-child input { width: 160px;}
+#login fieldset div:last-child input { width: 90px;}
 #order table td, th{ width: 150px; height: 30px; }
 
 .booklist { height: 462px;}

@@ -21,11 +21,12 @@ aside { margin: 5px; }
 article { margin: 5px 0 10px 0; }
 
 #login { margin: 30px; }
-#login fieldset span { display: inline-block;}
+#login fieldset div span { display: inline-block;}
+#login fieldset div:last-child{ margin-left: 30px;}
 #signup { margin: 30px;}
-#signup fieldset span { display: inline-block; vertical-align: middle; width: 110px;}
+#signup fieldset span { display: inline-block; vertical-align: middle; width: 80px; margin-left: 50px;}
 #signup fieldset input { vertical-align: middle;}
-#signup fieldset input:first-child { margin-left:10px;}
+#signup fieldset div input { margin: 5px 7px;}
 #order { margin: 30px; text-align: center;}
 #order table { width:60%; margin: auto; }
 

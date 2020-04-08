@@ -10,14 +10,17 @@
 
 <body id="login">
   <form action="">
-    <fieldset>
-      <span>사용자 아이디</span>
-      <input type="text" id="username"><br>
-      <span>비밀번호</span>
-      <input type="password" id="password"><br>
-      <span></span>
-      <input type="submit" id="login_button" value="로그인" disabled>
-      <input type="button" id="reset" onclick="window.close()" value="취소">
+    <fieldset style="display: inline-block;">
+      <div>
+        <span>사용자 아이디</span>
+        <input type="text" id="username"><br>
+        <span>비밀번호</span>
+        <input type="password" id="password"><br>
+      </div>
+      <div>
+        <input type="submit" id="login_button" onclick="login_btn" value="로그인">
+        <input type="button" id="reset" onclick="window.close()" value="취소">  
+      </div>
     </fieldset>
   </form>
 </body>
