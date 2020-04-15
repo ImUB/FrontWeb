@@ -75,11 +75,20 @@ function n_window(url)
 
 function login_btn()
 {
-  var username = document.getElementById('username');
-  var password = document.getElementById('password');
+  var username = document.getElementById('username').value;
+  var password = document.getElementById('password').value;
 
   if(username == "admin" && password == "xpfks!123")
   {
-    display_area.location.href = "manager.html";
+    window.opener.document.getElementById('display_area').src = "manager.html";
+  }
+  window.close();
+}
+
+function enter_press()
+{
+  if(event.keyCode == 13)
+  {
+    document.getElementById("login_button").click();
   }
 }

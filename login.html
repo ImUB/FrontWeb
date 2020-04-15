@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style-presentation.css">
   <link rel="stylesheet" type="text/css" href="style-layout.css">
   <link rel="stylesheet" type="text/css" href="style-size.css">
+  <script src="myscript.js"></script>
 </head>
 
 <body id="login">
@@ -15,11 +16,11 @@
         <span>사용자 아이디</span>
         <input type="text" id="username"><br>
         <span>비밀번호</span>
-        <input type="password" id="password"><br>
+        <input type="password" id="password" onkeydown="enter_press()"><br>
       </div>
       <div>
-        <input type="submit" id="login_button" onclick="login_btn" value="로그인">
-        <input type="button" id="reset" onclick="window.close()" value="취소">  
+        <input type="button" id="login_button" onclick="login_btn()" value="로그인">
+        <input type="button" id="reset" onclick="window.close()" value="취소">
       </div>
     </fieldset>
   </form>
