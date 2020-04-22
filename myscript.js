@@ -72,23 +72,3 @@ function n_window(url)
     window.open(url, 'signup', 'left=' + popupX + ',top=' + popupY + ',width=497, height=336, status=no, menubar=no, toolbar=no, resizable=no');
   }
 }
-
-function login_btn()
-{
-  var username = document.getElementById('username').value;
-  var password = document.getElementById('password').value;
-
-  if(username == "admin" && password == "xpfks!123")
-  {
-    window.opener.document.getElementById('display_area').src = "manager.html";
-  }
-  window.close();
-}
-
-function enter_press()
-{
-  if(event.keyCode == 13)
-  {
-    document.getElementById("login_button").click();
-  }
-}

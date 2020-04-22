@@ -8,6 +8,14 @@
   <link rel="stylesheet" type="text/css" href="style-size.css">
   <script src="myscript.js"></script>
   <script src="mydb.js"></script>
+  <script>
+    window.addEventListener( 'message', receiveMsgFromChild);
+
+    function receiveMsgFromChild( e ) {
+      console.log('자식으로 부터 받은 메세지 ', e.data);
+      display_area.location.href = e.data;
+    }
+  </script>
 </head>
 
 <body id="main">
