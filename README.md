@@ -1,5 +1,5 @@
 # ImUB BookStore
-Studying Front end Web Skill
+## Studying Front end Web Skill
 ----------------------------
 HTML & CSS & Javascript를 공부하기 위해 기초 서적을 활용하여
 간단한 온라인 서점을 구현 해보았다.
