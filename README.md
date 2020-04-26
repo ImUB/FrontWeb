@@ -12,3 +12,13 @@ HTML & CSS & Javascript를 공부하기 위해 기초 서적을 활용하여
 VM582:1 Uncaught DOMException: Blocked a frame with origin "null" from accessing a cross-origin frame. at <anonymous>:1:15
   
 Postmessage 기능을 활용하여 메세지를 전달하면 해결할 수 있다.
+
+
++ 추가 할 기능들
+
+ㅇ 회원관리 페이지에서 DB 테이블 구현 및 추가 제거 기능.
+ㅇ 회원 로그인 기능, 이름으로 로그인 구현
+ㅇ 책 클릭하였을 때 상세 내용 및 장바구니 담기 기능
+ㅇ 음반에 노래 수록 및 1분미리듣기 기능 추가
+ㅇ 조회수 이용해 베스트셀러 페이지 구현
+ㅇ 관리 페이지에서 주문내역 확인
