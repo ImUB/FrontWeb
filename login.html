@@ -38,7 +38,7 @@
   });
 
   function sendMsgToParent( msg ) {
-    window.parent.postMessage( msg, '*');
+    window.opener.postMessage( msg, '*');
   }
 
   function enter_press()
