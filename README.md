@@ -13,7 +13,7 @@ VM582:1 Uncaught DOMException: Blocked a frame with origin "null" from accessing
   
 Postmessage 기능을 활용하여 메세지를 전달하면 해결할 수 있다.
 
-
+* * *
 + 추가 할 기능
   + 회원관리 페이지에서 DB 테이블 구현 및 추가 제거 기능.
   + 회원 로그인 기능, 이름으로 로그인 구현
